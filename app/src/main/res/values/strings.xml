@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Office Peeves</string>
+    <string name="instructions">Welcome to the Office Peeves app! Here, you can share all of the horrible office crimes your colleagues have committed in order to exact justice and retribution. Submit your peeve in the box below.</string>
+    <string name="response_hint">Type your woes&#8230;</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="view_grievances_button_text">View Grievances</string>
 </resources>
