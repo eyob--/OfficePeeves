@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         String woe = ((EditText) findViewById(R.id.editGrievance)).getText().toString();
         Intent i = new Intent(this, WoesActivity.class);
         i.putExtra("woe", woe);
+        ((EditText) findViewById(R.id.editGrievance)).setText("");
         startActivity(i);
     }
 }
